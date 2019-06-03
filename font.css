@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/brandon-grotesque-light-58a8a4b38001d.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/AvenirLTStd-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir Light";
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/AvenirLTStd-Medium.woff") format("woff");
+}

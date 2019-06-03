@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nathan Kedinger Menuiserie</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Nathan Kedinger Menuiserie" />
+    <meta property="og:title" content="Nathan Kedinger Menuiserie" />
+
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="font.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="page-title">NATHAN KEDINGER MENUISERIE ARTISANALE</h1>
+      <ul class="navbar">
+        <li class="navbar-element"><a href="#home">Accueil</a></li>
+        <li class="navbar-element"><a href="#about">A propos</a></li>
+        <li class="navbar-element"><a href="#creations">Créations</a></li>
+        <li class="navbar-element"><a href="#quote">Citation</a></li>
+        <li class="navbar-element"><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <section class="intro-section section">
+      <div class="intro-text">VOTRE ARTISAN<br />MENUISIER</div>
+      <img src="images/intro.png" class="intro-image" alt="intro" />
+    </section>
+    <section class="about-section section" id="about">
+      <h2 class="section-title">PRÉCISION, QUALITÉ & CRÉATIVITÉ</h2>
+      <div class="section-subtitle">Concevoir ensemble</div>
+      <p class="about-text">
+        Artisan menuisier installé sur la commune de Cheix-en-Retz située à
+        l'ouest de Nantes, je propose la conception et la réalisation de tous
+        vos projets de menuiserie, agencement, ébénisterie et mobilier sur
+        mesure, dans la région. Spécialisé dans le travail du bois massif,
+        passionné de design et fort d’un apprentissage au sein des Compagnons du
+        Devoir j’ai pour habitude d’envisager chaque projet de sa conception
+        jusqu'à sa pose.
+      </p>
+      <p class="about-text">
+        À la recherche d’un nouvel habillage pour votre espace de vie ou de
+        travail ? N’hésitez pas à me contacter ou même à me rendre visite !
+      </p>
+      <p class="about-text">
+        Chaque projet est unique et se doit d'être pensé dans le moindre détail.
+        C'est pourquoi, nous prendrons ensemble le temps d'y réfléchir, afin d'y
+        répondre au mieux
+      </p>
+      <p class="about-text">
+        Je réponds à la demande des entreprises et des particuliers.
+      </p>
+    </section>
+    <section class="creation-section section" id="creations">
+      <h2 class="section-title">DES EXEMPLES DE MES CREATIONS</h2>
+      <div class="gallery">
+        <figure class="creation-thumbnail">
+          <img src="https://placekitten.com/300/300" alt="Image description" />
+          <figcaption>Création 1</figcaption>
+        </figure>
+
+        <figure class="creation-thumbnail">
+          <img src="https://placekitten.com/200/400" alt="Image description" />
+          <figcaption>Création 2</figcaption>
+        </figure>
+      </div>
+      <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+          <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+          </div>
+
+          <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+              <div class="pswp__counter"></div>
+              <button
+                class="pswp__button pswp__button--close"
+                title="Close (Esc)"
+              ></button>
+              <button
+                class="pswp__button pswp__button--zoom"
+                title="Zoom in/out"
+              ></button>
+              <div class="pswp__preloader">
+                <div class="pswp__preloader__icn">
+                  <div class="pswp__preloader__cut">
+                    <div class="pswp__preloader__donut"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="pswp__button pswp__button--arrow--left"
+              title="Previous (arrow left)"
+            ></button>
+
+            <button
+              class="pswp__button pswp__button--arrow--right"
+              title="Next (arrow right)"
+            ></button>
+
+            <div class="pswp__caption">
+              <div class="pswp__caption__center"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quote-section section" id="quote">
+      <div class="quote-container">
+        <img
+          src="images/woordwork.jpg"
+          class="quote-image-background"
+          alt="woodwork"
+        />
+        <div class="quote-text">
+          <div>« Le secret pour avancer c'est de commencer. »</div>
+          <div>
+            Mark Twain
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section section" id="contact">
+      <h2 class="section-title">CONTACT</h2>
+      <form class="contact-form" id="contactForm" name="contact">
+        <div class="form-line">
+          <input name="name" class="form-input" placeholder="Nom" required />
+          <input
+            name="email"
+            type="email"
+            class="form-input"
+            placeholder="E-mail"
+            required
+          />
+        </div>
+        <div class="form-line">
+          <input
+            name="subject"
+            class="form-input"
+            placeholder="Objet"
+            required
+          />
+        </div>
+        <div class="form-line">
+          <textarea
+            name="message"
+            class="form-message"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
+        <button class="form-button">Envoyer</button>
+        <p class="form-success-message">Votre message a bien été envoyé.</p>
+      </form>
+    </section>
+    <link rel="stylesheet" href="lib/photoswipe.css" />
+    <link rel="stylesheet" href="lib/default-skin/default-skin.css" />
+    <script src="lib/photoswipe.min.js"></script>
+    <script src="lib/photoswipe-ui-default.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

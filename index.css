@@ -1,0 +1,173 @@
+:root {
+  font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.125;
+  font-family: "Avenir Light", Helvetica, sans-serif;
+  color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.page-title {
+  font-family: "Brandon Grotesque";
+  font-size: 1.375rem;
+  line-height: 1.5;
+  font-weight: normal;
+  margin: 2.5rem 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-element {
+  font-size: 0.875rem;
+  padding: 0 0.625rem;
+}
+
+.navbar-element:hover {
+  text-decoration: underline;
+}
+
+.intro-image {
+  width: 100%;
+}
+
+.intro-text {
+  font-family: "Brandon Grotesque";
+  font-size: 4.5rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 9rem;
+}
+
+.section {
+  padding: 4rem;
+}
+
+.section-title {
+  font-family: "Brandon Grotesque";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.about-section {
+  background: #f7f7f7;
+}
+
+.about-text {
+  width: 75%;
+}
+
+.gallery {
+  display: flex;
+}
+
+.quote-section {
+  background: #f7f7f7;
+}
+
+.quote-container {
+  position: relative;
+}
+
+.quote-image-background {
+  width: 100%;
+  object-fit: cover;
+}
+
+.quote-text {
+  position: absolute;
+  top: calc(50% - 18px);
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.375rem;
+  font-family: "Brandon Grotesque";
+}
+
+.contact-form {
+  padding: 0 2rem;
+}
+
+.form-line {
+  padding: 1.5rem 0;
+}
+
+.form-input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  margin-right: 1.5rem;
+}
+
+.form-message {
+  height: 4rem;
+  width: 14rem;
+}
+
+.form-button {
+  outline: none;
+  background: none;
+  border: 1px solid #000000;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+
+.form-success-message {
+  display: none;
+  color: #39c16c;
+  margin: 1rem 0;
+  text-align: left;
+}
