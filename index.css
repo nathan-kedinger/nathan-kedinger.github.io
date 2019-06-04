@@ -92,12 +92,12 @@ strong {
   font-size: 2.5rem;
   line-height: 1.5;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .section-subtitle {
   font-size: 1.5rem;
   text-align: center;
-  margin-top: 3rem;
 }
 
 .about-section {
@@ -110,6 +110,15 @@ strong {
 
 .gallery {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.creation-thumbnail {
+  margin: 1rem;
+}
+
+.creation-thumbnail img {
+  height: 200px;
 }
 
 .quote-section {

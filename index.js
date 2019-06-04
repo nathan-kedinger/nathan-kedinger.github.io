@@ -4,14 +4,79 @@ window.addEventListener("load", function() {
 
     var items = [
       {
-        src: "https://placekitten.com/300/300",
-        w: 300,
-        h: 300
+        src: "images/gallery1.jpg",
+        w: 3120,
+        h: 4126
       },
       {
-        src: "https://placekitten.com/200/400",
-        w: 300,
-        h: 400
+        src: "images/gallery2.jpg",
+        w: 2736,
+        h: 3648
+      },
+      {
+        src: "images/gallery3.jpg",
+        w: 3648,
+        h: 2736
+      },
+      {
+        src: "images/gallery4.jpg",
+        w: 2736,
+        h: 3648
+      },
+      {
+        src: "images/gallery5.jpg",
+        w: 2736,
+        h: 3648
+      },
+      {
+        src: "images/gallery6.jpg",
+        w: 2736,
+        h: 3648
+      },
+      {
+        src: "images/gallery7.jpg",
+        w: 2736,
+        h: 3648
+      },
+      {
+        src: "images/gallery8.jpg",
+        w: 2736,
+        h: 3648
+      },
+      {
+        src: "images/gallery9.jpg",
+        w: 3648,
+        h: 2736
+      },
+      {
+        src: "images/gallery10.jpg",
+        w: 3648,
+        h: 2736
+      },
+      {
+        src: "images/gallery11.jpg",
+        w: 2736,
+        h: 3648
+      },
+      {
+        src: "images/gallery12.jpg",
+        w: 2736,
+        h: 3648
+      },
+      {
+        src: "images/gallery13.jpg",
+        w: 3648,
+        h: 2736
+      },
+      {
+        src: "images/gallery14.jpg",
+        w: 7296,
+        h: 5472
+      },
+      {
+        src: "images/gallery15.jpg",
+        w: 7296,
+        h: 5472
       }
     ];
 
