@@ -110,6 +110,7 @@ strong {
 
 .gallery {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -118,7 +119,7 @@ strong {
 }
 
 .creation-thumbnail img {
-  height: 200px;
+  height: 250px;
 }
 
 .quote-section {

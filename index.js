@@ -4,9 +4,14 @@ window.addEventListener("load", function() {
 
     var items = [
       {
+        src: "images/gallery0.jpg",
+        w: 1420,
+        h: 1633
+      },
+      {
         src: "images/gallery1.jpg",
         w: 3120,
-        h: 4126
+        h: 4160
       },
       {
         src: "images/gallery2.jpg",
@@ -25,13 +30,13 @@ window.addEventListener("load", function() {
       },
       {
         src: "images/gallery5.jpg",
-        w: 2736,
-        h: 3648
+        w: 3648,
+        h: 2736
       },
       {
         src: "images/gallery6.jpg",
-        w: 2736,
-        h: 3648
+        w: 7296,
+        h: 5472
       },
       {
         src: "images/gallery7.jpg",
@@ -65,8 +70,8 @@ window.addEventListener("load", function() {
       },
       {
         src: "images/gallery13.jpg",
-        w: 3648,
-        h: 2736
+        w: 2736,
+        h: 3648
       },
       {
         src: "images/gallery14.jpg",
@@ -75,8 +80,8 @@ window.addEventListener("load", function() {
       },
       {
         src: "images/gallery15.jpg",
-        w: 7296,
-        h: 5472
+        w: 4160,
+        h: 3120
       }
     ];
 
