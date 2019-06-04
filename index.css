@@ -76,11 +76,10 @@ strong {
 
 .intro-text {
   font-family: "Brandon Grotesque";
-  font-size: 4.5rem;
+  font-size: 4rem;
   line-height: 1.5;
   text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 9rem;
+  margin-bottom: 6rem;
 }
 
 @media only screen and (max-width: 1023px) {
