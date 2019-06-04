@@ -136,10 +136,6 @@ strong {
   height: 250px;
 }
 
-.quote-section {
-  background: #f7f7f7;
-}
-
 .quote-container {
   position: relative;
 }
@@ -151,7 +147,7 @@ strong {
 
 .quote-text {
   position: absolute;
-  top: calc(50% - 18px);
+  top: calc(50% - 32px);
   left: 0;
   right: 0;
   margin: auto;
@@ -161,8 +157,21 @@ strong {
   font-family: "Brandon Grotesque";
 }
 
+@media only screen and (max-width: 1023px) {
+  .quote-text {
+    font-size: 0.875rem;
+    top: calc(50% - 30px);
+  }
+}
+
 .quote-author {
   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  .quote-author {
+    margin-top: 0.875rem;
+  }
 }
 
 .contact-form {
