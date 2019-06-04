@@ -83,8 +83,22 @@ strong {
   margin-bottom: 9rem;
 }
 
+@media only screen and (max-width: 1023px) {
+  .intro-text {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}
+
 .section {
   padding: 4rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  .section {
+    padding: 2rem 0;
+  }
 }
 
 .section-title {
