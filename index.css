@@ -147,6 +147,10 @@ strong {
   font-family: "Brandon Grotesque";
 }
 
+.quote-author {
+  margin-top: 1rem;
+}
+
 .contact-form {
   padding: 0 2rem;
 }
